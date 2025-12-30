@@ -8,3 +8,4 @@ npm-debug.log*
 demo/assets/images
 .parcel-cache
 dist
+.DS_Store

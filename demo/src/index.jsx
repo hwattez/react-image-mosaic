@@ -13,7 +13,7 @@ const Demo = () => {
     const [blending, setBlending] = useState(0.6);
 
     const [progress, setProgress] = useState(0);
-    const [targetImage, setTargetImage] = useState(STATIC + 'images/' + Images[4].name);
+    const [targetImage, setTargetImage] = useState(STATIC + 'images/' + Images[0].name);
 
     function clickedCanvas(data) {
         setTargetImage(data.image);
@@ -29,11 +29,7 @@ const Demo = () => {
 
     return (
         <div className="demo-container">
-            <h1>react-image-mosaic</h1>
-
-            <p>
-                <a href="https://github.com/thejsn/react-image-mosaic">Source on GitHub</a>
-            </p>
+            <h1>Sur la route du précieux et des trente ans de Thibault !</h1>
 
             { progress < 1 ? (
                 <pre className="loading">
@@ -112,7 +108,7 @@ const Demo = () => {
             ) : null }
 
             <p>
-                Images from <a href="https://unsplash.com/" target="_blank">Unsplash</a>.
+                Images from <a href="https://www.polarsteps.com/ThibaultFalque/20071492-nouvelle-zelande" target="_blank">polarsteps.com/ThibaultFalque</a>.
             </p>
         </div>
     )
